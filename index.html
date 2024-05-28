@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+<!--Animaciones CSS CDN--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Portafolio</title>
+</head>
+<body>
+   <!--Barra de Navegacion--> 
+     <nav>
+        <h1>Jessica Escandell</h1>
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+     </nav>
+    
+     <!--Seccion Hero-->
+       <section class="hero" id="about">
+          <img src="assets/images/descarga.png" alt="womanintech" class="hero-img" loading="lazy">
+          <div class="bio animate__animated animate__shakeX">
+             <h2 class="bio-title">About Me</h2>
+             <p class="bio-text">My name is Jessica escandell, I am 21 years old. I am studying computer systems engineering at uveg and I am currently taking courses on web development.</p>
+          </div>
+       </section>
+
+     <!--Seccion sobre mi -->
+      <section class="more-about">
+        <h2>More about me</h2>
+        <p>I decided to study this career because it is a career with many options to work, besides having a wide variety of knowledge to learn.</p>
+        <p>I am currently taking courses to specialize in web development because I find the creation of web pages very interesting and useful. However, I will also consider taking courses on cybersecurity and data analysis in the future.</p>
+        <p>My hobbies are going for walks and playing with my kitties Waffle and Lechera. I also love making key chains, doing word searches and watching K-dramas.</p>
+      </section>   
+    
+     <!--Seccion Habilidades-->
+       <section class="skills" id="skills">
+         <h2 class="skill-header">My Top Skills</h2>
+         <div class="skills-wrapper">
+           <div class="first-set animate__animated animate__pulse">
+             <img src="assets/icons/bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+             <img src="assets/icons/css3.svg" alt="" loading="lazy" class="icon icon-card">
+             <img src="assets/icons/github.svg" alt="" loading="lazy" class="icon icon-card">
+           </div>
+             <div class="second-set animate__animated animate__pulse">
+               <img src="assets/icons/html.svg" alt="" loading="lazy" class="icon icon-card">
+               <img src="assets/icons/javascript.svg" alt="" loading="lazy" class="icon icon-card">
+               <img src="assets/icons/react-native.svg" alt="" loading="lazy" class="icon icon-card">
+             </div>
+         </div>
+       </section>
+
+    <!--Seccion Proyectos-->
+       <section class="projects" id="projects">
+           <h2 class="projects-title"> Some of my projects</h2>
+          <div class="projects-container">
+            <div class="project-container project-card">
+              <img src="assets/images/cap1.png" alt="" loading="lazy" class="project-pic">
+              <h3 class="project-title">Interface of pinterest</h3>
+              <p class="project-details">It focuses on replicating the visual appearance of pinterest, offering a similar browsing experience with its responsive design and basic functionality.</p>
+              <a href="https://interfaz-de-pinterest-eight.vercel.app/" target="_blank" class="project-link">Click here</a>
+            </div>
+            <div class="project-container project-card">
+              <img src="assets/images/Captura de pantalla 2024-05-27 212411.png" alt="" loading="lazy" class="project-pic">
+              <h3 class="project-title">Bootstrap</h3>
+              <p class="project-details">Practice to learn how to use bootstrap</p>
+              <a href="https://boostrap-beta.vercel.app" target="_blank" class="project-link">Click here</a>
+            </div>
+            <div class="project-container project-card">
+              <img src="assets/images/Captura de pantalla 2024-05-27 210822.png" alt="" loading="lazy" class="project-pic">
+              <h3 class="project-title">Enhylover</h3>
+              <p class="project-details">Practice how to use HTML and CSS.</p>
+              <a href="https://enhylover-jessica-escandells-projects.vercel.app" target="_blank" class="project-link">Click here</a>
+            </div>
+          </div>
+       </section>
+    
+    
+     <!--Seccion Contacto-->
+     <!--Seccion de Redes Sociales-->
+       <div class="socials">
+         <a href="https://github.com/Jess2350" target="_blank"><img src="assets/icons/git5.gif" alt="GitHub" loading="lazy" class="socicon"></a>
+         <a href="https://www.linkedin.com/in/jessica-escandell-37a473310/" target="_blank"><img src="assets/icons/lik.gif" alt="Linkedin" loading="lazy" class="socicon"></a>
+         <a href="#" target="_blank"><img src="assets/icons/ins.gif" alt="Instagram" loading="lazy" class="socicon"></a>
+       </div>
+    
+     <!--Scroll button-->
+        <i class="scroll-up" id="scroll-up">
+          <img src="assets/icons/scr.gif" class="socicon up-arrow">
+        </i> 
+     
+     <!--Seccion Footer-->
+       <footer>
+         <p>Built with &#x2661; by Jessica Escandell</p>
+       </footer>
+
+     <!-- Website scripts -->
+      <script src="assets/js/app.js"></script>
+
+     <!-- Ion icons scripts -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
